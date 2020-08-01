@@ -1,0 +1,14 @@
+products = [name, profile_img, category, cost, sale_Price ]
+users = [name, profile_img, contact, telephone, address ]
+clients = [name, profile_img, contact, telephone, address ]
+providers = [name, profile_img, contact, telephone]                                              
+
+
+//migrations = Histórico  do banco de dados
+
+criar o arquivo knexfile.ts na raiz para configurar com o banco e executar a migrations
+
+
+para executar o arquivo knexfile
+
+///npx knex migrate:latest --knexfile knexfile.ts migrate:latest
