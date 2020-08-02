@@ -1,6 +1,15 @@
 import knex from '../database/connection';
 import { Request, Response } from 'express'
 class ProductsController {
+  async show(request: Request, response: Response){
+  const { id } = request.params;
+  const product = await knex('products').where('id', id).first();
+  if (!product){
+    return response.status(400).json({ message: 'Product not found.'});
+  }
+    return response.json(product);
+  }
+
   async create(request: Request, response: Response) {
     const {
       name,
