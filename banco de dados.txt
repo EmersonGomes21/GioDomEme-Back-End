@@ -4,11 +4,17 @@ clients = [name, profile_img, contact, telephone, address ]
 providers = [name, profile_img, contact, telephone]                                              
 
 
-//migrations = Histórico  do banco de dados
+01 //migrations = Histórico  do banco de dados
 
 criar o arquivo knexfile.ts na raiz para configurar com o banco e executar a migrations
 
 
-para executar o arquivo knexfile
+02 para executar o arquivo knexfile
 
-///npx knex migrate:latest --knexfile knexfile.ts migrate:latest
+npx knex migrate:latest --knexfile knexfile.ts migrate:latest
+
+03 como script no package.json
+npm knex:migrate
+
+4 - Populei a tabela de produtos para poder fazer a  rota de listar com os seeds
+npm run knex:seed

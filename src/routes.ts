@@ -1,11 +1,12 @@
 import express from 'express';
+import knex from './database/connection';
+import ProductsController from './controllers/ProductsController';
 const routes = express.Router();
+const productsController = new ProductsController();
 
+routes.post('/products', productsController.create);
 
+routes.get('/products', productsController.index);
 
-routes.get('/', (request, response) =>{
-
-  return response.json({message: 'Hello World'});
-}); 
 
 export default routes;
