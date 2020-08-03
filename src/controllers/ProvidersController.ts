@@ -6,7 +6,7 @@ class ClientsController {
   const { id } = request.params;
   const user = await knex('clients').where('id', id).first();
   if (!user){
-    return response.status(400).json({ message: 'Client not found.'});
+    return response.status(400).json({ message: 'Provider not found.'});
   }
     return response.json(user);
   }
