@@ -12,7 +12,7 @@
   
   </br>
   
-  <h2> No terminal do Projeto, pasta Backend </h2>
+  <h2> No terminal do Projeto</h2>
     <p> Caso queira visualizar as tabelas criadas, instale a extensão <b>SQlite<b/> no VSCode </p>
   <p> Execute o comando <b> Ctrl + shift + p </b> para abrir o atalho de pesquisa e procure por <b> SQlite: Open Database </b>, depois selecione também <b>database.sqlite</b> que é o banco criado local, dentro do projeto. Irá aparecer uma nova opção <b>SQLITE EXPLORER</b> na parte inferior a esquerda do editor de texto (contendo todas as tabelas criadas), selecione uma e clique em SHOW table.</p>
   
