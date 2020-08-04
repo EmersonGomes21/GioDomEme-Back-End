@@ -25,6 +25,7 @@
 <h1> Codando.. </h1>
   <h2>  <> Rota para upload <> </h2> 
   <h2> <> Delete de cada entidade <> </h2> 
+     <h2> <> Middlewares <> </h2> 
 
 <a href="https://github.com/gioinsfran1998/GioDom-FrontEnd-Web"> Front-End do Projeto</a>
 
