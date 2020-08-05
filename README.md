@@ -18,7 +18,7 @@
   
   <h2> No terminal do Projeto</h2>
     <p> Caso queira visualizar as tabelas criadas, instale a extensão <b>SQlite<b/> no VSCode </p>
-  <p> Selecione o arquivo <b>database.sqlite</b> com o botão direito do mouse e escolha a opção <b>Open Database</b. Irá aparecer uma nova opção <b>SQLITE EXPLORER</b> na parte inferior a esquerda do editor de texto (contendo todas as tabelas criadas), selecione uma e clique em SHOW table.</p>
+  <p> Selecione o arquivo <b>database.sqlite</b> com o botão direito do mouse e escolha a opção <b> Open Database </b. Irá aparecer uma nova opção <b> SQLITE EXPLORER </b> na parte inferior a esquerda do editor de texto (contendo todas as tabelas criadas), selecione uma e clique em SHOW table.</p>
   
   <h1> Iniciando o servidor</h1>
   
